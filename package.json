@@ -1,5 +1,5 @@
 {
-  "homepage": "https://stefanoskokkalis.github.io/COVID-19TrackerAPP/",
+  "homepage": "https://stefanoskokkalis.github.io/COVID-19TrackerApp/",
   "name": "corona_tracker_app",
   "version": "0.1.0",
   "private": true,
@@ -18,8 +18,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "predeploy": "npm run start",
-    "deploy": "gh-pages -b master -d start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
